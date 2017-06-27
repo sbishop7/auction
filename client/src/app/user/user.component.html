@@ -1,0 +1,5 @@
+<form class="login" #formData="ngForm" (submit)="login()">
+  <p><label>Enter a username to continue:</label></p>
+  <input type="text" name="username" [(ngModel)]="username">
+  <input type="submit" name="submit" value="Enter">
+</form>

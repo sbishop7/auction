@@ -1,0 +1,40 @@
+*{
+    /*border: thin dotted red;*/
+}
+#wrapper{
+    /*width: 970px;*/
+}
+#header{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    padding: 0px;
+}
+#navLogout{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    text-align: right;
+}
+.productInfo{
+    width: 100px;
+    height: 60px;
+    border: thin solid black;
+    background-color: silver;
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.product{
+    /*width: 200px;*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 20px;
+}
+.bidder{
+    display: inline-block;
+    vertical-align: top;
+}

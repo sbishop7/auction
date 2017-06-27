@@ -1,0 +1,27 @@
+.productInfo{
+    width: 100px;
+    height: 60px;
+    border: thin solid black;
+    background-color: silver;
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.product{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.errorBox{
+    color: red;
+    height: 40px;
+}
+.bids{
+    border: thin solid black;
+
+}
+ul li {
+    list-style-type: none;
+}

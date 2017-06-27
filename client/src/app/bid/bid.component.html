@@ -1,0 +1,15 @@
+<div id="wrapper">
+  <div id="header">
+    <h1>Bid!</h1>
+  </div>
+  <div id="navLogout">
+    <a  href="" (click)="logout()">Logout</a>
+  </div>
+
+<div class="product" *ngFor="let product of products">
+  <app-product [product]='product'></app-product>
+
+  
+</div>
+<p><button (click)="endBid()">End Bid</button></p>
+</div>

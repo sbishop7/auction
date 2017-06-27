@@ -1,0 +1,19 @@
+<div id="wrapper">
+  <div id="header">
+    <h1>{{ user.username }} ended the Bid.</h1>
+  </div>
+  <div id="navLogout">
+    <a  href="" (click)="logout()">Logout</a>
+  </div>
+  <h4>Highest Bidder per Product:</h4>
+
+  <div class="product" *ngFor="let product of products">
+    <div class="productInfo">{{ product.product_name }}</div>
+    <div class="bidder">
+      <p>{{ product.bids[product.bids.length-1].username}}</p>
+      <p>${{ product.bids[product.bids.length-1].amount}}</p>
+    </div>
+  </div>
+
+<p><button (click)="startBid()">Start Bid</button></p>
+</div>
